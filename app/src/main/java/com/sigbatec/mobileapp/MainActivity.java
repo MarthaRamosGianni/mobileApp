@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         siguiente = (Button) findViewById(R.id.button1);
         siguiente.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent siguiente = new Intent(MainActivity.this, MainActivity2.class);
+                Intent siguiente = new Intent(MainActivity.this, InicioApp.class);
                 startActivity(siguiente);
 
             }
