@@ -17,11 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
         Button siguiente;
 
-        siguiente = (Button) findViewById(R.id.button1);
+        siguiente = (Button) findViewById(R.id.buttonEnt);
         siguiente.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent siguiente = new Intent(MainActivity.this, InicioApp.class);
                 startActivity(siguiente);
+
+
 
             }
         });

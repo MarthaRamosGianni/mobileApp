@@ -4,59 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C95AC1"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button1"
+    <EditText
+        android:id="@+id/TextNomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/TextOlv"
         android:layout_width="225dp"
-        android:layout_height="59dp"
-        android:text="Entrar"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="303dp" />
-
-    <EditText
-        android:id="@+id/TextRut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Rut"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="162dp" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="234dp" />
-
-    <EditText
-        android:id="@+id/Recuperar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:layout_height="29dp"
         android:text="Olvido su contraseña"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="606dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_round"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="35dp" />
+        android:background="#AA00FF"
+        app:srcCompat="@drawable/avatar2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="215dp"
-        android:layout_height="43dp"
-        android:text="Registrarse"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="552dp" />
+        android:id="@+id/buttonEnt"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:text="Ingresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="530dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
