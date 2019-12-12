@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AyudaFragment"
+    android:background="@color/colorBlank">
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="382dp"
+        android:src="@drawable/logolanderos4" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="166dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:justificationMode="inter_word"
+        android:textSize="20dp"
+        android:text="Bienvenidos a la aplicacion de buses landeros, en esta aplicacion encontraras diferentes modulos que se daran a conocer desliza tu dedo de un costado al otro para poder ver las instrucciones del uso de nuestro aplicativo"
+        android:textColor="@color/colorPrimaryDark"
+        >
+
+    </TextView>
+
+
+</RelativeLayout>
