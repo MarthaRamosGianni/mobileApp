@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Activitys.ActivityUserPerfil"></activity>
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".Main3ActivityR" />
-        <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
