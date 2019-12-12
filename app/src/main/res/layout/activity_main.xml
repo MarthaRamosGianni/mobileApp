@@ -8,52 +8,68 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/TextNomb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/Password"
+        android:layout_width="279dp"
+        android:layout_height="82dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:backgroundTint="#ffff"
+        android:textColor="#000"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="279dp"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:backgroundTint="#ffff"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/TextPass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="438dp" />
 
     <TextView
-        android:id="@+id/TextOlv"
-        android:layout_width="225dp"
-        android:layout_height="29dp"
-        android:text="Olvido su contraseña"
+        android:id="@+id/Registro"
+        android:layout_width="321dp"
+        android:layout_height="49dp"
+        android:text="No estas registrado? Registrate Aqui"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlank"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#AA00FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
         app:srcCompat="@drawable/avatar2"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="56dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/buttonEnt"
-        android:layout_width="154dp"
-        android:layout_height="45dp"
-        android:text="Ingresar"
+        android:id="@+id/Inicio"
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:text="Iniciar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="530dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_style"
+        app:layout_constraintVertical_bias="0.812" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
